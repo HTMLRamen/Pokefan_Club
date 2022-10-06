@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: darkorange;
+    background-image: url(img/pokeball.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+   
+    height: 118px;
+    text-align: center; 
+}
+
+nav {
+        background-color: rgba(255, 0, 0, 0.44);
+        text-align: center;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    main {
+        
+        height: 400px;
+        text-align: center;
+        padding-top: 80px;
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+
+footer {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+h1{
+    font-size: 84px;
+    color:gold;
+    font-family:fantasy
+
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: rgb(19, 200, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-decoration: none;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: burlywood;
+}
+
+.maps{
+    padding-bottom: 100px;
+    padding-left: 330px;
+    padding-right: 330px;
+}
